@@ -1,0 +1,3 @@
+default: --tags ~@wip --tags ~@end_to_end
+wip: --tags @wip --tags ~@end_to_end
+end_to_end: --tags ~@wip --tags @end_to_end

@@ -8,5 +8,6 @@ gem 'thin'
 group :development do
   gem 'cucumber'
   gem 'cucumber-sinatra'
+  gem 'capybara'
   gem 'rspec'
 end
